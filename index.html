@@ -28,6 +28,54 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  <style>
+   .book_room {
+  max-width: 400px;
+  width: 90%;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.book_room input,
+.book_room button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.book_room .book_btn {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .book_room {
+    width: 95%;
+    padding: 15px;
+    position: relative; /* force it to stay in normal flow */
+    margin: 20px auto;
+  }
+
+  .book_room h1 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .book_room input,
+  .book_room button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}</style>
+
    </head>
    <!-- body -->
    <body class="main-layout">
